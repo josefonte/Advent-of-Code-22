@@ -10,7 +10,6 @@ for line in day3_1.lines:
     elfGroup.append(line)
 
     if cont==2 :
-        groups +=1
         c1 = Counter(elfGroup[0])
         c2 = Counter(elfGroup[1])
         c3 = Counter(elfGroup[2])
