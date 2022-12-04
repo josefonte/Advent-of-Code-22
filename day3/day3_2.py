@@ -1,10 +1,9 @@
 import day3_1
 from collections import Counter
 
-cont=0
 elfGroup = list()
+cont=0
 sum_Badges = 0
-groups=0
 
 for line in day3_1.lines:
     elfGroup.append(line)
